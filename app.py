@@ -8,7 +8,7 @@ import plotly.express as px
 
 USER_DB = {
     "sachin": "78143",
-    "admin": "admin321"
+    "guest": "guest321"
 }
 
 def login():
@@ -212,3 +212,4 @@ if st.session_state["logged_in"]:
     dashboard()
 else:
     login()
+
